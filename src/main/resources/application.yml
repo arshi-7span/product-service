@@ -1,0 +1,11 @@
+server:
+  port: 8084
+  servlet:
+    contextPath: "/products"
+
+spring:
+  application:
+    name: PRODUCT-SERVICE
+
+firebase:
+   collection-name: product-service
